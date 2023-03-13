@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #000000ee;
+    display: grid;
+    place-items: center;
+
+    gap: 2rem;
+
+    color: white;
+
+    height: 50vh;
+}
+
+h2{
+    background: linear-gradient(to right, lightblue, lightgreen, blue, red, green, yellow, coral);
+    font-size: 2rem;
+
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    transition: 0.3s background ease-in-out;
+}
+
+h2:hover{
+    background: linear-gradient(to left, lightblue, lightgreen, blue, red, green, yellow, coral);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+input {
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 15px #cccccc30;
+    border: none;
+    outline: none;
+
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+
+    border-radius: 15px;
+
+    transition: 200ms all ease-in-out;
+
+    text-transform: uppercase;
+}
+
+p {
+    transition: 200ms all ease-in-out;
+    color: red;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
